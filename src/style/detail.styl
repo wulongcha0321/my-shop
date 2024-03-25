@@ -1,0 +1,147 @@
+$title-color = rgba(29, 33, 41, 1)
+$price-bg = rgba(253, 219, 185, 1)
+$price-color = rgba(255, 102, 0, 1)
+$btn-bg = #00A693
+
+.page
+  position relative
+  width 100%
+  height 100%
+
+  .main-wrap
+    position relative
+    width: 1280px
+    min-height: calc(100% - 222px)
+    margin: 0 auto
+    left: 0
+    right 0
+
+    .detail-wrap
+      width: 100%
+      height: 423px
+      padding: 30px 0
+      box-sizing: border-box
+
+      .detail-container
+        width 100%
+        height 100%
+        display flex
+        align-items center
+        justify-content space-between
+
+        .detail-img
+          width 600px
+          height: 384px
+          border-radius: 4px
+
+        .detail-info
+          width 600px
+
+          .detail-title
+            font-weight: 700
+            width: 100%
+            height 48px
+            font-size: 32px
+            line-height: 48px
+            color $title-color
+            text-overflow: ellipsis
+            overflow: hidden
+            white-space: nowrap
+
+          .introduction
+            margin-top 24px
+            width 100%
+            height 56px
+            font-size 16px
+            line-height: 28px
+            color $title-color
+            overflow: hidden
+            text-overflow: ellipsis
+            white-space: wrap
+
+          .detail-price
+            margin-top 24px
+            
+            span
+              background-color: $price-bg
+              color $price-color
+              height 79px
+              font-size 28px
+              font-weight: 700
+              border-radius: 4px
+              box-sizing: border-box
+              padding 2px 6px
+
+          .detail-btns
+            margin-top 24px
+            display flex
+            align-items center
+
+            button
+              outline none
+              border none
+              cursor pointer
+              transition: all 0.3s ease-in-out
+
+              &:hover
+                box-shadow: none
+
+            .cart-btn
+              height 40px
+              border-radius 4px
+              box-shadow: 4px 4px 0px rgb(0,0,0)
+              margin-right 20px
+              border 1px solid rgb(0,0,0)
+              background-color: #fff
+              font-size: 16px
+              font-weight: 600
+              padding 0 10px
+
+            .buy-btn
+              height 40px
+              border-radius 4px
+              box-shadow: 4px 4px 0px rgb(0,0,0)
+              background-color: $btn-bg
+              border 1px solid $btn-bg
+              font-size: 16px
+              font-weight: 600
+              padding 0 10px
+              color #fff
+
+    .more-wrap
+      height 320px
+      width 100%
+
+      .more-title
+        width 100%
+        height 48px
+        font-weight: 700
+        font-size 28px
+        line-height: 48px
+        color $title-color
+        text-align center
+
+      .more-imgs
+        margin-top 12px
+        height 240px
+        width 100%
+        display flex
+        justify-content: space-evenly
+        align-items: center
+
+        .more-item
+          width 311px
+          height 240px
+
+          .more-item-img
+            height 180px
+            width 311px
+            border-radius: 8px
+            cursor pointer
+
+
+
+
+
+
+        

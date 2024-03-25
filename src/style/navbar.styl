@@ -1,0 +1,94 @@
+$font-color = rgb(29,33,41)
+$btn-color = #00a693
+
+.nav-wrap
+    width: 100%
+    height 72px
+    background-color: #fff
+    display flex
+    align-items: center
+    justify-content: center
+    padding: 0 80px
+
+    .nav-container
+        width 1280px
+        height 40px
+        display flex
+        justify-content: space-between
+        align-items: center
+
+        .nav-l
+            display flex
+            align-items center
+
+            .logo
+                width 134px
+                height 28px
+                padding 1px 2px
+                margin-right 60px
+                color: $font-color
+                font-size: 22px
+                font-family: Kalam
+                font-weight: 700
+
+            .tabs
+                display: flex
+                align-items: center
+                height 32px
+                color: $font-color
+                font-size: 16px
+
+                .tab
+                    display flex
+                    align-items flex-end
+                    margin 0 15px
+                    height: 32px
+                    padding-bottom 5px
+                    cursor pointer
+                
+                .tab:hover
+                  border-bottom 2px solid $btn-color
+
+        .nav-r
+          display flex
+          align-items center
+
+
+        .search-bar
+            display flex
+            align-items: center
+            justify-content space-between
+            border: 1px solid $font-color
+            width 200px
+            height 40px
+            border-radius: 4px
+            padding:  0 5px
+
+            .search-icon
+                width: 16px
+                height 16px
+
+            .search-input
+                width 160px
+                line-height 28px
+                height 28px
+                outline: none
+                border: none
+                color $font-color
+
+        .search-btn
+            background-color $btn-color
+            width 100px
+            height 40px
+            border-radius: 4px
+            line-height 40px
+            text-align: center
+            border none
+            margin-left 20px
+            color #fff
+            cursor pointer
+
+        .search-btn:hover
+            background-color #41a79b
+            transform scale(1.02)
+
