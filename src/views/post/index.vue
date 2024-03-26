@@ -73,7 +73,7 @@ export default {
       console.log("点击了卡片详情");
       this.$router.push({
         name: "Detail",
-        params: {
+        query: {
           item: JSON.stringify(item),
         },
       });

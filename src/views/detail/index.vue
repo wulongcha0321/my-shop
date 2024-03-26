@@ -56,7 +56,7 @@ export default {
     }
   },
   created(){
-    const str = this.$route.params.item
+    const str = this.$route.query.item
     const item = JSON.parse(str)
     console.log(item)
     this.processDetail(item)
